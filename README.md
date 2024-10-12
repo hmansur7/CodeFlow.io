@@ -1,5 +1,3 @@
----
-
 # CodeFlow.io
 
 **CodeFlow.io** is an all-in-one software development workflow management platform designed to streamline the collaboration and version control process for development teams. Whether you're working solo or managing large teams, CodeFlow.io offers a project-centric environment that makes handling code, bugs, and team communication effortless.
@@ -30,5 +28,3 @@
 
 ## Why CodeFlow.io?
 CodeFlow.io simplifies and accelerates the software development process, making it the perfect tool for organizations or individuals looking for intuitive project management and collaboration. With upcoming features like in-browser IDE and AI-assisted development, CodeFlow.io is set to become a powerful hub for software teams.
-
----
