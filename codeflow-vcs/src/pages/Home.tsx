@@ -12,7 +12,7 @@ const HomePage = () => {
       <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            CodeFlow.io
+            CodeFlow
           </Typography>
           <Button component={Link} to="/login" color="inherit">
             Login
@@ -26,7 +26,7 @@ const HomePage = () => {
       <Container maxWidth="lg">
         <Box sx={{ textAlign: 'center', py: 5 }}>
           <Typography variant="h2" component="h1" gutterBottom>
-            CodeFlow.io
+            CodeFlow.io {'<>'}
           </Typography>
           <Typography variant="h6" component="p" gutterBottom>
             The all-in-one platform for software development teams to manage projects, collaborate, and track bugs efficiently.
