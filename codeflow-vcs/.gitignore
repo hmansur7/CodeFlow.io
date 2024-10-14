@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 src/firebaseConfig.ts
-./README.md
-../.gitattributes
+
