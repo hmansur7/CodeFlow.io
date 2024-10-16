@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-
+const simpleGit = require('simple-git');
 
 const listProjects = (req, res) => {
   const repoPath = path.resolve(__dirname, '../../repositories');
@@ -39,7 +39,7 @@ const deleteProject = (req, res) => {
 
   try {
     if (fs.existsSync(projectPath)) {
-      fs.rmdirSync(projectPath, { recursive: true });
+      fs.rmSync(projectPath, { recursive: true, force: true });
       res.status(200).json({ message: `Project '${projectId}' deleted.` });
     } else {
       res.status(404).json({ message: `Project '${projectId}' not found.` });
